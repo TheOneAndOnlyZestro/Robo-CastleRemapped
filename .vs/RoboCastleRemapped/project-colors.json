@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bcb17518-2b1b-4d3c-81a5-9ec82d06796b": {
+      "ProjectGuid": "bcb17518-2b1b-4d3c-81a5-9ec82d06796b",
+      "DisplayName": "RoboCastleRemapped",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
