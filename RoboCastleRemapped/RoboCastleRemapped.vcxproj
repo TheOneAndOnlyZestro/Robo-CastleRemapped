@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\Dev\OpenGlDependencies\GLEW\include;F:\Dev\OpenGlDependencies\GLFW\include;F:\Dev\OpenGlDependencies\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\OpenGlDependencies\GLEW\include;F:\Dev\OpenGlDependencies\GLFW\include;F:\Dev\OpenGlDependencies\glm;$(SolutionDir)Components;$(SolutionDir)Geometry;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -105,7 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\Dev\OpenGlDependencies\GLEW\include;F:\Dev\OpenGlDependencies\GLFW\include;F:\Dev\OpenGlDependencies\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\OpenGlDependencies\GLEW\include;F:\Dev\OpenGlDependencies\GLFW\include;F:\Dev\OpenGlDependencies\glm;$(SolutionDir)Components;$(SolutionDir)Geometry;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -122,7 +122,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\Dev\OpenGlDependencies\GLEW\include;F:\Dev\OpenGlDependencies\GLFW\include;F:\Dev\OpenGlDependencies\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\OpenGlDependencies\GLEW\include;F:\Dev\OpenGlDependencies\GLFW\include;F:\Dev\OpenGlDependencies\glm;$(SolutionDir)Components;$(SolutionDir)Geometry;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,7 +139,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GLEW_STATIC</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\Dev\OpenGlDependencies\GLEW\include;F:\Dev\OpenGlDependencies\GLFW\include;F:\Dev\OpenGlDependencies\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Dev\OpenGlDependencies\GLEW\include;F:\Dev\OpenGlDependencies\GLFW\include;F:\Dev\OpenGlDependencies\glm;$(SolutionDir)Components;$(SolutionDir)Geometry;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,10 +152,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Geometry\Geo\Mesh.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Meshes\Quad.json" />
     <None Include="Shaders\FragmentShader.shader" />
     <None Include="Shaders\VertexShader.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometry\Geo\Mesh.h" />
+    <ClInclude Include="Geometry\Geo\Vertex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

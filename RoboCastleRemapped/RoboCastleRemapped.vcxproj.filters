@@ -18,9 +18,21 @@
     <ClCompile Include="Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Geometry\Geo\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\VertexShader.shader" />
     <None Include="Shaders\FragmentShader.shader" />
+    <None Include="Meshes\Quad.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Geometry\Geo\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Geo\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

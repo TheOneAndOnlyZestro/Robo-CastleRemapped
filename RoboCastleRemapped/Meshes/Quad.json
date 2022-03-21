@@ -1,0 +1,13 @@
+{
+  "Meta": {
+    "Name": "Quad",
+    "Description" :  "A Mesh To Create A Quad The Center Of Screen"
+  },
+  "Vertices": [
+    { "0": { "Pos": [ "-0.5f", "-0.5f", "0.0f" ] } },
+    { "1": { "Pos": [ "0.5f", "-0.5f", "0.0f" ] } },
+    { "2": { "Pos": [ "0.5f", "0.5f", "0.0f" ] } },
+    { "3": { "Pos": [ "-0.5f", "0.5f", "0.0f" ] } }
+  ]
+
+}
